@@ -18,6 +18,25 @@ ul {
 a {
   text-decoration: none;
 }
+h2, h3, h4, p, ul, button {
+  padding: 0;
+  margin: 0;
+}
+.container {
+  width: 1230px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-list {
+  padding: 15px 0 13px;
+  margin-bottom: 81px;
+  display: flex;
+  gap: 55px;
+}
 .logo {
   color: var(--nav-color);
   font-size: 30px;
@@ -32,17 +51,30 @@ a {
 .services-subtitle {
   color: var(--title-color);
   font-family: "Kaushan Script", cursive;
+  text-align: center;
   font-size: 24px;
+  margin-bottom: 20px;
 }
 .services-title {
   color: var(--title-color);
+  text-align: center;
   font-size: 30px;
   font-weight: 700;
   font-variant: all-small-caps;
+  margin-bottom: 109px;
+}
+.services-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 70px;
+}
+.services-list {
+  max-width: 275px;
 }
 .services-list-title {
   color: var(--title-color);
   font-variant: small-caps;
+  margin-bottom: 20px;
 }
 .services-list-text {
   color: var(--text-color);
@@ -50,13 +82,19 @@ a {
   font-size: 15px;
   line-height: 1.5;
 }
+.team {
+  padding-top: 100px;
+}
 .team-subtitle {
   color: var(--title-color);
   font-family: "Kaushan Script", cursive;
+  text-align: center;
   font-size: 24px;
+  margin-bottom: 17px;
 }
 .team-title {
   color: var(--title-color);
+  text-align: center;
   font-size: 30px;
   font-weight: 700;
   font-variant: all-small-caps;
@@ -66,22 +104,35 @@ a {
   text-align: center;
   font-family: "Roboto", sans-serif;
   font-size: 15px;
+  margin: 85px 0 27px;
+}
+.team-list {
+  display: flex;
+  justify-content: space-between;
 }
 .team-img {
   width: 380px;
   height: 470px;
+  margin-bottom: 30px;
 }
 .team-list-title {
   color: var(--title-color);
-  /* text-align: center; */
+  text-align: center;
   font-variant: all-small-caps;
+  margin-bottom: 11px;
 }
 .team-list-prof {
   color: var(--text-color);
-  /* text-align: center; */
   font-family: "Roboto", sans-serif;
+  text-align: center;
   font-size: 15px;
   font-weight: 300;
+}
+.footer {
+  margin-top: 80px ;
+  padding: 9px 0 10px;
+  display: flex;
+  justify-content: space-between;
 }
 .footer-info {
   color: var(--text-color);
@@ -97,6 +148,7 @@ a {
   font-weight: 300;
   width: 230px;
   height: 39px;
+  padding: 12px 10px 11px;
 }
 .footer-btn {
   color: #fff;
