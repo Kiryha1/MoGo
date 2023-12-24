@@ -33,7 +33,6 @@ h2, h3, h4, p, ul, button {
   padding: 17px 0;
 }
 .nav-list {
-  margin-bottom: 81px;
   display: flex;
   gap: 55px;
 }
@@ -139,13 +138,13 @@ h2, h3, h4, p, ul, button {
   padding: 9px 0 10px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .footer-info {
   color: var(--text-color);
   text-align: center;
-  padding: 22px 0 11px;
 }
-.footer-link:hover {
+.footer-link {
   color: var(--hover-color);
 }
 .form-email {
@@ -159,11 +158,12 @@ h2, h3, h4, p, ul, button {
 }
 .footer-btn {
   color: #fff;
-  text-align: center;
+  font-size: 14px;
   font-weight: 700;
   font-variant: all-small-caps;
 
   width: 150px;
   height: 40px;
   background-color: var(--nav-color);
+  border: none;
 }
