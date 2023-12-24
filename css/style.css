@@ -30,9 +30,9 @@ h2, h3, h4, p, ul, button {
 .header {
   display: flex;
   justify-content: space-between;
+  padding: 17px 0;
 }
 .nav-list {
-  padding: 15px 0 13px;
   margin-bottom: 81px;
   display: flex;
   gap: 55px;
@@ -47,6 +47,9 @@ h2, h3, h4, p, ul, button {
 }
 .nav-list-link:hover {
   color: var(--hover-color);
+}
+.services {
+  padding: 63px 0;
 }
 .services-subtitle {
   color: var(--title-color);
@@ -66,10 +69,12 @@ h2, h3, h4, p, ul, button {
 .services-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 70px;
+  justify-content: center;
+  column-gap: 126px;
+  row-gap: 100px;
 }
-.services-list {
-  max-width: 275px;
+.services-list-item {
+  width: 274px;
 }
 .services-list-title {
   color: var(--title-color);
@@ -83,7 +88,7 @@ h2, h3, h4, p, ul, button {
   line-height: 1.5;
 }
 .team {
-  padding-top: 100px;
+  padding: 42px 0 80px;
 }
 .team-subtitle {
   color: var(--title-color);
@@ -129,6 +134,7 @@ h2, h3, h4, p, ul, button {
   font-weight: 300;
 }
 .footer {
+  border-top: 1px solid var(--text-color);
   margin-top: 80px ;
   padding: 9px 0 10px;
   display: flex;
@@ -137,6 +143,7 @@ h2, h3, h4, p, ul, button {
 .footer-info {
   color: var(--text-color);
   text-align: center;
+  padding: 22px 0 11px;
 }
 .footer-link:hover {
   color: var(--hover-color);
